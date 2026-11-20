@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/python-3.10--3.13-blue" alt="python 3.10-3.13">
   <img src="https://img.shields.io/badge/engine-standard%20library%20only-lightgrey" alt="standard library only">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license"></a>
+  <a href="https://github.com/cpg25ncu/hinger-ai/releases/latest"><img src="https://img.shields.io/github/v/release/cpg25ncu/hinger-ai" alt="latest release"></a>
 </p>
 
 Classical AI for **Hinger**, a two-player combinatorial board game: graph

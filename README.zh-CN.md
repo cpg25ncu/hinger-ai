@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/python-3.10--3.13-blue" alt="python 3.10-3.13">
   <img src="https://img.shields.io/badge/engine-standard%20library%20only-lightgrey" alt="standard library only">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license"></a>
+  <a href="https://github.com/cpg25ncu/hinger-ai/releases/latest"><img src="https://img.shields.io/github/v/release/cpg25ncu/hinger-ai" alt="latest release"></a>
 </p>
 
 本项目为双人组合博弈 **Hinger** 实现了一整套经典 AI 方法：用图算法实现规则判定，用无信息搜索和启发式搜索求"安全路径"，一个精确的博弈求解器，以及 minimax、alpha-beta 和蒙特卡洛树搜索（MCTS）三类对弈智能体，并对它们做了系统的对比评测。引擎**只依赖 Python 标准库**，桌面图形界面用到的 pygame 是可选依赖。
