@@ -1,0 +1,190 @@
+{
+ "format": "hinger-game/1",
+ "initial": [
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ],
+  [
+   0,
+   1,
+   1,
+   1,
+   0
+  ],
+  [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  [
+   0,
+   1,
+   1,
+   1,
+   0
+  ],
+  [
+   0,
+   0,
+   1,
+   0,
+   0
+  ]
+ ],
+ "player_a": "alphabeta",
+ "player_b": "mcts",
+ "winner": "alphabeta",
+ "winner_side": "A",
+ "reason": "hinger",
+ "moves": [
+  {
+   "ply": 1,
+   "side": "A",
+   "player": "alphabeta",
+   "move": [
+    0,
+    2
+   ],
+   "hinger": false,
+   "cost": 4,
+   "elapsed": 0.09053929999936372,
+   "counters_after": 12
+  },
+  {
+   "ply": 2,
+   "side": "B",
+   "player": "mcts",
+   "move": [
+    1,
+    3
+   ],
+   "hinger": false,
+   "cost": 5,
+   "elapsed": 0.5000995999434963,
+   "counters_after": 11
+  },
+  {
+   "ply": 3,
+   "side": "A",
+   "player": "alphabeta",
+   "move": [
+    1,
+    1
+   ],
+   "hinger": false,
+   "cost": 5,
+   "elapsed": 0.00017899996601045132,
+   "counters_after": 10
+  },
+  {
+   "ply": 4,
+   "side": "B",
+   "player": "mcts",
+   "move": [
+    2,
+    4
+   ],
+   "hinger": false,
+   "cost": 3,
+   "elapsed": 0.500019200029783,
+   "counters_after": 9
+  },
+  {
+   "ply": 5,
+   "side": "A",
+   "player": "alphabeta",
+   "move": [
+    2,
+    0
+   ],
+   "hinger": false,
+   "cost": 3,
+   "elapsed": 0.0008310000412166119,
+   "counters_after": 8
+  },
+  {
+   "ply": 6,
+   "side": "B",
+   "player": "mcts",
+   "move": [
+    4,
+    2
+   ],
+   "hinger": false,
+   "cost": 4,
+   "elapsed": 0.5000122000928968,
+   "counters_after": 7
+  },
+  {
+   "ply": 7,
+   "side": "A",
+   "player": "alphabeta",
+   "move": [
+    2,
+    2
+   ],
+   "hinger": false,
+   "cost": 7,
+   "elapsed": 0.00036529998760670424,
+   "counters_after": 6
+  },
+  {
+   "ply": 8,
+   "side": "B",
+   "player": "mcts",
+   "move": [
+    3,
+    3
+   ],
+   "hinger": false,
+   "cost": 3,
+   "elapsed": 0.5000095000723377,
+   "counters_after": 5
+  },
+  {
+   "ply": 9,
+   "side": "A",
+   "player": "alphabeta",
+   "move": [
+    3,
+    1
+   ],
+   "hinger": false,
+   "cost": 3,
+   "elapsed": 7.770000956952572e-05,
+   "counters_after": 4
+  },
+  {
+   "ply": 10,
+   "side": "B",
+   "player": "mcts",
+   "move": [
+    3,
+    2
+   ],
+   "hinger": false,
+   "cost": 3,
+   "elapsed": 0.5000083000632003,
+   "counters_after": 3
+  },
+  {
+   "ply": 11,
+   "side": "A",
+   "player": "alphabeta",
+   "move": [
+    1,
+    2
+   ],
+   "hinger": true,
+   "cost": 3,
+   "elapsed": 1.1899974197149277e-05,
+   "counters_after": 2
+  }
+ ]
+}

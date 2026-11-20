@@ -1,0 +1,26 @@
+rows,cols,counters,result,positions_solved,seconds
+1,1,1,draw,2,0.0
+1,2,2,draw,3,0.0
+1,3,3,first player wins,1,0.0
+1,4,4,first player wins,1,0.0
+1,5,5,first player wins,1,0.0
+1,6,6,first player wins,1,0.0
+1,7,7,first player wins,1,0.0
+1,8,8,first player wins,1,0.0
+2,2,4,draw,6,0.0
+2,3,6,draw,20,0.0
+2,4,8,draw,41,0.0
+2,5,10,draw,83,0.0
+2,6,12,draw,139,0.0
+2,7,14,draw,228,0.0
+2,8,16,draw,337,0.01
+3,3,9,first player wins,72,0.0
+3,4,12,second player wins,503,0.01
+3,5,15,first player wins,1848,0.05
+3,6,18,second player wins,6316,0.2
+3,7,21,first player wins,19736,0.64
+3,8,24,second player wins,62195,2.53
+4,4,16,second player wins,2153,0.09
+4,5,20,second player wins,30814,1.12
+4,6,24,second player wins,214811,9.26
+5,5,25,first player wins,352675,19.72

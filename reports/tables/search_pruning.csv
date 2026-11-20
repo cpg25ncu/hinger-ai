@@ -1,0 +1,6 @@
+k,problems,bfs_pruned_expanded_median,bfs_unpruned_expanded_median,reduction_x
+2,30,2.0,6.5,3.2
+3,30,5.0,44.0,8.8
+4,30,12.0,291.0,24.9
+5,30,27.0,1463.5,60.4
+6,30,58.0,1916.0,41.3

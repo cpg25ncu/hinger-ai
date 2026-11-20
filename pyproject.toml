@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hinger"
+version = "1.0.0"
+description = "Search and adversarial game-playing AI for Hinger, a two-player combinatorial board game"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Tongyao Liu" }]
+keywords = ["artificial-intelligence", "search", "a-star", "alpha-beta", "mcts", "game-ai"]
+# The engine (state, search, solver, agents, terminal game) uses the standard library only.
+dependencies = []
+
+[project.optional-dependencies]
+gui = ["pygame>=2.5"]
+bench = ["matplotlib>=3.7"]
+dev = ["pytest>=7"]
+
+[project.scripts]
+hinger = "hinger.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "I"]
+ignore = ["B905"]

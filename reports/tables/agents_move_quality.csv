@@ -1,0 +1,13 @@
+board,agent,positions,optimal_move_pct,time_ms_mean
+4x5,random,120,28.3,0.0
+4x5,greedy,120,65.8,0.2
+4x5,minimax d=2,120,60.8,1.7
+4x5,minimax d=3,120,60.8,12.8
+4x5,alphabeta,120,95.8,90.0
+4x5,mcts,120,98.3,195.2
+5x5,random,120,20.8,0.0
+5x5,greedy,120,56.7,0.6
+5x5,minimax d=2,120,59.2,6.3
+5x5,minimax d=3,120,59.2,68.0
+5x5,alphabeta,120,74.2,164.5
+5x5,mcts,120,85.8,200.5
